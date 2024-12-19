@@ -28,7 +28,8 @@ public class Problema02 {
 
         for (filas = 0; filas < 2; filas++) {
             for (columnas = 0; columnas < 5; columnas++) {
-                System.out.println("Ingrese ventas del dia " + columnas);
+                System.out.println(vendedores[filas]+" Ingrese ventas del dia "
+                        + columnas);
                 valor = entrada.nextDouble();
 
                 ventas[filas][columnas] = valor;

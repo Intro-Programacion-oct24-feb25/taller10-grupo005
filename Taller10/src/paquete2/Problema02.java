@@ -4,11 +4,15 @@
  * and open the template in the editor.
  */
 package paquete2;
-
+import java.util.Scanner;
+import java.util.Locale;
 /**
  *
  * @author reroes
  */
 public class Problema02 {
+    public static void main(String[] args) {
+        
+    }
     
 }

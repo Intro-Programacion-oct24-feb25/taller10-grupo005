@@ -17,25 +17,21 @@ public class Problema06 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
-        
-         String[][] estudiantes = {{"Sarah Ward", "Philip Payne"},
+
+        String[][] estudiantes = {{"Sarah Ward", "Philip Payne"},
         {"Carrie Burton", "Lauren Rice"},
         {"Emma Escobar", "Lori Flores"},
         {"Steven West", "Toni Martin"}
         };
 
-        char letra;
-        String letra2;
         String cadena = "";
-        
+
         for (int i = 0; i < estudiantes.length; i++) {
             for (int j = 0; j < estudiantes[i].length; j++) {
 
-                letra = estudiantes[i][j].charAt(11);
-                letra2 = String.valueOf(letra);
-                if(estudiantes[i][j].length() == 11){
-                   cadena = String.format("%s%s\n",cadena, estudiantes[i][j]);
-                
+                if (estudiantes[i][j].length() == 11) {
+                    cadena = String.format("%s%s\n", cadena, estudiantes[i][j]);
+
                 }
 
             }
@@ -45,5 +41,3 @@ public class Problema06 {
     }
 
 }
-    
-

@@ -1,4 +1,7 @@
 # Taller 10 (Laboratorio):
+# Integrantes:
+- Joel Dominguez
+- Jhordy Camacas
 ## Construcción de programas usando arreglos bidimensionales
 
 * Lenguaje de programación : Java
